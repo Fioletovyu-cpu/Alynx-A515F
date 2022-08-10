@@ -30,14 +30,5 @@ make mrproper
 make adeptus_a51_defconfig 
 make -j$(nproc --all)  | tee Adeptus_a51_Compile.log
 echo "Kernel Compiled"
-echo ""
-rm ./ADEPTUS/AK/Image
-rm ./output/*.zip
-cp -R ./arch/arm64/boot/Image ./ADEPTUS/AK/Image
-cd ADEPTUS/AK
-. zip.sh
-cd ../..
-cp -R ./ADEPTUS/AK/1*.zip ./output/AdeptusKernel-R1-A51.zip
-rm ./ADEPTUS/AK/*.zip
-rm ./ADEPTUS/AK/Image
+
 
