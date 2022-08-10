@@ -18,7 +18,7 @@
                 $ export ANDROID_MAJOR_VERSION=r
                 $ export ARCH=arm64
                 $ make exynos9610-m31nsxx_defconfig
-                $ make
+                $ make 
 
 2. Output files
         - Kernel : arch/arm64/boot/Image
