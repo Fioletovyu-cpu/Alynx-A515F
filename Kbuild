@@ -12,7 +12,7 @@
 # 1) Generate bounds.h
 
 bounds-file := include/generated/bounds.h
-
+ 
 always  := $(bounds-file)
 targets := kernel/bounds.s
 
