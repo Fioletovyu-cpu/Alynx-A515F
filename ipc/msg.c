@@ -6,7 +6,7 @@
  * Removed all the remaining kerneld mess
  * Catch the -EFAULT stuff properly
  * Use GFP_KERNEL for messages as in 1.2
- * Fixed up the unchecked user space derefs
+ * Fixed up the unchecked user space derefs 
  * Copyright (C) 1998 Alan Cox & Andi Kleen
  *
  * /proc/sysvipc/msg support (c) 1999 Dragos Acostachioaie <dragos@iname.com>
