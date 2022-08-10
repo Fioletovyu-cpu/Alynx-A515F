@@ -8,5 +8,5 @@ FILES="
 arch/arm64/boot/Image:kernel
 arch/arm64/boot/dts/exynos/exynos9610.dtb:dtb.img
 dtbo.img:dtbo.img
-vmlinux:vmlinux
+vmlinux:vmlinux 
 "
