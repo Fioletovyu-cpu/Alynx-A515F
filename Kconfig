@@ -10,7 +10,7 @@ config SRCARCH
 	option env="SRCARCH"
 
 config ANDROID_VERSION
-	string
+	string 
 	option env="ANDROID_VERSION"
 
 config ANDROID_MAJOR_VERSION
