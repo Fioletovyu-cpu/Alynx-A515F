@@ -11,3 +11,4 @@ export CC=/home/licht/toolchain/clang-4639204/bin/clang
 make clean
 make mrproper
 rm -rf A51
+ 
